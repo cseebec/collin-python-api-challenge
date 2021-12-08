@@ -25,17 +25,24 @@ https://mapsplatform.google.com/
 **If you do create accounts at these websites and get api keys the code in this repo will run without any problems**
 
 ## Part I Weather 
-### Pseudocode
-1. Create a list of random latitudes and longitudes 
-2. Get nearest city to each latitude / longitude location
-3. Get current humidity, cloudiness, windspeed and max daily temperature for each city
-4. Create scatter plots for both the Northern and Southern Hemisphere showing Max Temperature vs Latitude, Humidity % vs Latitude, Cloudiness vs Latitude and  Windspeed vs Latitude
+
+**Create various scatterplots of  latitude vs different weather measurements such as cloudiness, humidity, daily max temp, and wind speed for both the Northern and Southern Hemispheres**
 
 **Example of scatterplot: Southern Hemisphere Latitude vs Daily Max Temperature**
-![](Weather/output_data/Southern_Lat_vs_MaxTemp.png)
 
-**To see the conclusions I made based on this code please see Weather_Conclustions.docx in the Weather folder**
+![](01_Weather/output_data/Southern_Lat_vs_MaxTemp.png)
+
+**To see the conclusions I made based on this code please see Weather_Conclustions.docx in the 01_Weather directory**
 
 ## Part II Vacation
-Create a heat map that displays the humidity for every city from the Weather data
+
+**Create a heat map that displays the humidity for every city from the Weather data** 
+
+**Humidity heat map**
+
+![](02_Vacation/Pictures/Humidity_Heat_Map.png)
+
+**To see the conclusions I made based on this code please see Weather_Conclustions.docx in the 0_1 Weather directory**
+
+
 
